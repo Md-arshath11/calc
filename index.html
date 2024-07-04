@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+        <input id="input-value" readonly>
+        <div class="btn">
+          <div class="row">
+            <button class="operator" onclick="appentToDisplay('+')">+</button>
+            <button onclick="appentToDisplay('7')">7</button>
+            <button onclick="appentToDisplay('8')">8</button>
+            <button onclick="appentToDisplay('9')">9</button>
+          </div>
+          <div class="row">
+            <button class="operator" onclick="appentToDisplay('-')">-</button>
+            <button onclick="appentToDisplay('4')">4</button>
+            <button onclick="appentToDisplay('5')">5</button>
+            <button onclick="appentToDisplay('6')">6</button>
+          </div>
+          <div class="row">
+            <button class="operator" onclick="appentToDisplay('*')">*</button> 
+            <button onclick="appentToDisplay('1')">1</button>
+            <button onclick="appentToDisplay('2')">2</button>
+            <button onclick="appentToDisplay('3')">3</button>
+          </div>
+          <div class="row">
+            <button class="operator" onclick="appentToDisplay('/')">/</button>
+            <button onclick="appentToDisplay('0')">0</button>
+            <button onclick="appentToDisplay('.')">.</button>
+            <button onclick="calculate('=')">=</button>
+          </div>
+          <div class="row">
+            <button onclick="clearDisplay()" class="claer">C</button>
+
+          </div>
+        </div>
+        
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
